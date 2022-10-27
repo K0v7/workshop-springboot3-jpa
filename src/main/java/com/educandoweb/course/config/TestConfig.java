@@ -91,7 +91,7 @@ public class TestConfig implements CommandLineRunner {
 		userRepository.saveAll(Arrays.asList(u1, u2));
 		orderRepository.saveAll(Arrays.asList(o1, o2, o3));
 
-		// pegando os preõs pagos or cada pedido feito pelos usuários
+		// pegando os predidos pagos ou cada pedido feito pelos usuários
 
 		OrderItem oi1 = new OrderItem(o1, p1, 2, p1.getPrice());
 		OrderItem oi2 = new OrderItem(o1, p3, 1, p3.getPrice());
